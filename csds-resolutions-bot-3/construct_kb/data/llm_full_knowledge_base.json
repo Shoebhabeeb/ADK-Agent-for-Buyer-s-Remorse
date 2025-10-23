@@ -1,0 +1,2426 @@
+[
+    {
+        "intent": "Account Security",
+        "customer_motivation": "The customer is experiencing issues with their Home Depot account, such as orders not appearing, unauthorized access attempts, or difficulty linking purchases to their account.",
+        "resolution_goals": [
+            "Resolve the customer's immediate account issue (missing orders, unauthorized access, etc.).",
+            "Provide information and guidance to prevent future account issues."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Identify the Account Issue",
+                "details": [
+                    "Determine the exact nature of the customer's problem (e.g., missing order, suspicious activity, can't link purchase).",
+                    "Ask clarifying questions to understand the situation fully (e.g., \"What is the order number?\", \"When did this start?\").",
+                    "Determine if the issue is related to a DIY or Pro account."
+                ]
+            },
+            {
+                "step": "Verify Customer Identity and Account Details",
+                "details": [
+                    "Request necessary information to locate the customer's account and order (e.g., email address, billing address, last 4 digits of Visa).",
+                    "Confirm billing address, email or other identifying information from the customer's account for verification purposes.",
+                    "Confirm the order details to ensure it belongs to the customer."
+                ]
+            },
+            {
+                "step": "Investigate the Issue",
+                "details": [
+                    "Check order history and account details to identify the problem.",
+                    "Determine if the order was placed under a guest account and if the account existed at that time.",
+                    "Verify if a card that was used for the purchase is attached to the account, or if the user has attempted to add the receipt to their account."
+                ]
+            },
+            {
+                "step": "Resolve or Escalate the Issue",
+                "details": [
+                    "If possible, manually add the order to the customer's account.",
+                    "Resend confirmation or shipping emails.",
+                    "Provide tracking numbers if the customer cannot access them through their account.",
+                    "Guide customers on how to add receipts or cards to populate missing purchases.",
+                    "If the issue is with a Home Depot credit card, provide the customer with the credit services phone number.",
+                    "For suspected unauthorized access attempts, advise the customer to change their password and avoid clicking links in suspicious emails.",
+                    "If the issue cannot be resolved directly, submit an IT ticket or escalate the issue to the appropriate department (e.g., Pro Support).",
+                    "Inform the customer about potential delays in order posting due to upgrades or system updates (24-48 hours or 3 business days)."
+                ]
+            },
+            {
+                "step": "Provide Information and Alternatives",
+                "details": [
+                    "Explain why orders placed as a guest might not automatically appear in the account.",
+                    "Inform the customer if manually adding the order to their account is not possible.",
+                    "Provide alternatives if the original issue cannot be resolved (e.g., in-store purchase).",
+                    "For issues related to payment failures, offer alternatives such as a secure payment form or Home Depot gift card.",
+                    "Explain the benefits of having a Pro account."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Add to Order",
+        "customer_motivation": "The customer wants to modify an existing order, either by adding items, changing delivery instructions, or adjusting pickup options.",
+        "resolution_goals": [
+            "Successfully modify the existing order per the customer's request.",
+            "Provide alternative solutions or explanations if the requested modification is not directly possible."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Identify the Order",
+                "details": [
+                    "Request the order number and email address associated with the order for verification.",
+                    "If the customer is logged in, verify their account information."
+                ]
+            },
+            {
+                "step": "Assess Modification Possibility",
+                "details": [
+                    "Check the order status and system limitations for modifications.",
+                    "Determine if the requested modification (add item, change delivery, etc.) is possible at this stage."
+                ]
+            },
+            {
+                "step": "Execute Modification or Offer Alternatives",
+                "details": [
+                    "If possible, add delivery instructions or modify pickup person.",
+                    "If the modification is not possible, offer alternative solutions: cancelling and re-ordering, placing a separate order, contacting the store directly for special orders or delivery arrangements, or contacting credit services for promotions."
+                ]
+            },
+            {
+                "step": "Provide Additional Support (If Needed)",
+                "details": [
+                    "For curbside pickup issues, provide the store's phone number to the customer.",
+                    "If a technical issue prevents the customer from making changes themselves, submit an IT ticket.",
+                    "For items not available online, contact the local store."
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Offer Further Assistance",
+                "details": [
+                    "Confirm the modification or the alternative solution provided to the customer.",
+                    "Ask if there is anything else they need assistance with."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Address Verification",
+        "customer_motivation": "The customer wants to confirm or modify order details, delivery information, or resolve issues related to their Home Depot order.",
+        "resolution_goals": [
+            "To verify the customer's identity and order details for security.",
+            "To address the customer's inquiry regarding the order, such as confirming details, changing delivery, or resolving issues."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Initiate Contact and Identify the Issue",
+                "details": [
+                    "Greet the customer and thank them for contacting The Home Depot.",
+                    "Ask how you can assist them today or acknowledge the reason for their contact."
+                ]
+            },
+            {
+                "step": "Verify Customer Identity and Order",
+                "details": [
+                    "Request the order number from the customer.",
+                    "For security purposes, ask the customer to verify the full billing address (including city, state, and zip code) and/or email address associated with the order.",
+                    "Double-check the order number to ensure it's accurate and matches the customer's information."
+                ]
+            },
+            {
+                "step": "Address the Customer's Inquiry",
+                "details": [
+                    "Use the verified information to locate the order and review its details.",
+                    "Provide information about the order status, delivery date/time, or other relevant details.",
+                    "If the customer wants to change the delivery date/time, explain the available options (e.g., managing delivery through FedEx, contacting the delivery team).",
+                    "For issues like missing gift card balances, explain the verification process and expected timelines.",
+                    "If the customer is calling about an e-gift card for another party, have them confirm the recipient's email address so you can verify that the gift card was sent to that email address.",
+                    "If an issue is with a product, determine the type of product so you can offer the most relevant support."
+                ]
+            },
+            {
+                "step": "Offer Solutions and Assistance",
+                "details": [
+                    "If needed, submit a cancellation request for the order, explaining that it's not guaranteed.",
+                    "Provide contact information for relevant departments or manufacturers (e.g., GE for warranty service).",
+                    "Offer alternative solutions or workarounds if the customer's request cannot be directly fulfilled.",
+                    "If the agent is unable to solve the customer's problem, explain why clearly and offer alternative means of resolving the issue."
+                ]
+            },
+            {
+                "step": "Close the Conversation",
+                "details": [
+                    "Confirm that the customer's issue has been addressed to their satisfaction.",
+                    "Ask if there is anything else you can assist them with.",
+                    "Thank the customer for choosing The Home Depot.",
+                    "Invite them to complete the brief survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Apply Perks to Order",
+        "customer_motivation": "The customer wants to apply specific perks or benefits, like honoring original prices or applying refunds, to their order due to issues like cancellations or price discrepancies.",
+        "resolution_goals": [
+            "Apply the correct discounts, refunds, or promotions to the customer's order.",
+            "Ensure customer satisfaction by addressing their concerns and resolving issues related to pricing or order discrepancies."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details and Customer Eligibility.",
+                "details": [
+                    "Ask the customer for their order number.",
+                    "Verify the customer's full name and billing address on the order.",
+                    "Confirm the email address associated with the order.",
+                    "Determine customer's eligibility for specific perks (e.g., Pro Extra Member)."
+                ]
+            },
+            {
+                "step": "Investigate the Customer's Claim or Issue.",
+                "details": [
+                    "Check the order status and history for any cancellations or issues.",
+                    "Compare the current price of the item with the price at the time of the original order.",
+                    "Investigate any payment issues associated with the order.",
+                    "Look into the details of the gift cards used on the purchase."
+                ]
+            },
+            {
+                "step": "Apply Perks or Adjustments.",
+                "details": [
+                    "Honor the original price if the item was cancelled due to being out of stock.",
+                    "Process a refund for the difference if the customer has already placed the order at the higher price.",
+                    "Apply any relevant Pro Extra member discounts or benefits.",
+                    "Waive the delivery fee if the delivery was delayed or problematic.",
+                    "Provide payment link for pro extra member discount"
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Ensure Satisfaction.",
+                "details": [
+                    "Inform the customer that the adjustment has been applied (e.g., refund processed).",
+                    "Confirm the amount of the refund and the payment method.",
+                    "Offer to place a new order with the adjusted price.",
+                    "Ask the customer if they have any other questions or concerns."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "BOPIS Pickup Issue",
+        "customer_motivation": "The customer is contacting customer service to inquire about the status of a Buy Online, Pickup In Store (BOPIS) order or address an issue with their pickup.",
+        "resolution_goals": [
+            "Provide the customer with an update on their order status and expected pickup time.",
+            "Resolve any issues preventing the customer from picking up their order (e.g., item not in stock, damage, etc.)."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Ask for the order number.",
+                    "Verify the customer's full name and billing address or email address for security purposes."
+                ]
+            },
+            {
+                "step": "Check Order Status",
+                "details": [
+                    "Check the order status in the system.",
+                    "Determine if the order is processing, ready for pickup, or experiencing delays.",
+                    "Confirm the item is in stock at the store."
+                ]
+            },
+            {
+                "step": "Provide Order Update",
+                "details": [
+                    "Inform the customer of the order status (e.g., 'processing,' 'ready for pickup,' 'delayed').",
+                    "If the order is ready, confirm that the customer received the pickup notification email.",
+                    "Provide the estimated pickup date if the order is still processing.",
+                    "Inform customer of how long the order will be held for."
+                ]
+            },
+            {
+                "step": "Address Issues and Offer Solutions",
+                "details": [
+                    "If the item is out of stock, offer alternative solutions, such as canceling the item and finding a similar item in-store or arranging for delivery.",
+                    "If the order is delayed, apologize for the inconvenience and provide possible explanations (e.g., 'still processing').",
+                    "If the order arrived damaged, offer options such as in-store return, carrier pickup, or a discount to keep the item as is. Initiate a new order if the customer wants a replacement.",
+                    "If the customer wants curbside pickup, make sure to inform them they can call the store once they arrive to let the team know of their arrival."
+                ]
+            },
+            {
+                "step": "Provide Store Contact Information",
+                "details": [
+                    "Provide the store's phone number so the customer can contact them directly for updates or to arrange for pickup.",
+                    "Check the store hours for the customer."
+                ]
+            },
+            {
+                "step": "Document and Close",
+                "details": [
+                    "Add notes to the order about the customer's inquiry and any actions taken.",
+                    "Confirm that all of the customer's questions have been answered."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Cancel Order",
+        "customer_motivation": "The customer wants to cancel an order for various reasons such as incorrect shipping address, change of mind, payment issues, or delivery delays.",
+        "resolution_goals": [
+            "Cancel the customer's order successfully.",
+            "Provide alternative solutions if immediate cancellation is not possible or if the customer has other related issues."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Identity and Order Details",
+                "details": [
+                    "Request and verify the email address associated with the order for security purposes.",
+                    "Ask for the full billing address to access the order.",
+                    "If needed, request the order number, full name, and billing address."
+                ]
+            },
+            {
+                "step": "Assess Order Status and Cancellation Options",
+                "details": [
+                    "Check the order status to determine if cancellation is possible at the current stage (e.g., 'in transit,' 'ready for pickup,' 'already shipped').",
+                    "If the order is not yet in transit or shipped, proceed with submitting a cancellation request.",
+                    "If cancellation is not immediately possible (e.g., order is in transit), explain the limitations and provide alternative options."
+                ]
+            },
+            {
+                "step": "Execute Cancellation or Offer Alternatives",
+                "details": [
+                    "If cancellation is possible, submit a cancellation request and inform the customer that they will receive a confirmation email.",
+                    "If the order cannot be canceled immediately, explain why (e.g., 'it is in route') and provide alternatives such as refusing the delivery or contacting customer service the next day for cancellation.",
+                    "If the customer wants to change something about the order, but it is not changeable, offer cancellation and re-order."
+                ]
+            },
+            {
+                "step": "Address Related Issues and Provide Support",
+                "details": [
+                    "If the cancellation is due to a payment issue, inform the customer and offer to assist with re-placing the order or provide a secure link for updating payment information.",
+                    "If there are delivery delays, explain the situation, provide the new delivery date, and offer cancellation if the delay is unacceptable.",
+                    "For ship-to-store orders with incorrect locations, inform the customer that the location cannot be changed, but the order can be canceled and a new one placed.",
+                    "Check if there are any other questions or concerns the customer has and offer assistance."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Change Fulfillment Method",
+        "customer_motivation": "The customer wants to modify their order fulfillment method after the order has been placed.",
+        "resolution_goals": [
+            "Change the order fulfillment method (e.g., from shipping to in-store pickup, or vice versa).",
+            "Understand the limitations and alternatives if the fulfillment method cannot be changed directly."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Ask for the order number.",
+                    "Request verification of the billing address, email address, or other identifying information associated with the order for security purposes."
+                ]
+            },
+            {
+                "step": "Determine Fulfillment Method Change Possibility",
+                "details": [
+                    "Check if the fulfillment method can be changed in the system.",
+                    "Note if the item is shipping directly from the vendor as this often restricts changes."
+                ]
+            },
+            {
+                "step": "Provide Options Based on Limitations",
+                "details": [
+                    "If change is NOT possible because it's a vendor shipment, inform the customer that the current order would need to be cancelled and a new order placed with the desired fulfillment method.",
+                    "If cancellation is possible, offer to submit a cancellation request.",
+                    "If cancellation is not possible (e.g. order has shipped), inform the customer they can return the order to their local Home Depot store for an immediate refund upon receipt or refuse delivery."
+                ]
+            },
+            {
+                "step": "Provide Alternative Solutions if Possible",
+                "details": [
+                    "For deliveries that can not be cancelled, suggest having the package held at a UPS location for pickup.",
+                    "Provide the website to have the package held at a UPS location for pickup."
+                ]
+            },
+            {
+                "step": "Confirmation and Additional Assistance",
+                "details": [
+                    "Confirm the next steps for the customer, such as checking email for cancellation status updates.",
+                    "Offer further assistance if needed."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Change Order Item",
+        "customer_motivation": "The customer wants to modify an existing order, usually to change the quantity, type, or delivery method of an item, or to address issues like incorrect items received or payment failures.",
+        "resolution_goals": [
+            "Modify the existing order to meet the customer's needs, if possible.",
+            "If direct modification is not possible, explore alternative solutions like cancellation and reorder, returns, or contacting other departments."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details and Customer Identity",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Verify the customer's identity using their email address and billing address for security.",
+                    "Confirm the specific item(s) the customer wants to change."
+                ]
+            },
+            {
+                "step": "Assess Modification Options",
+                "details": [
+                    "Check if the order can be directly modified based on its current status (e.g., if it's within the cancellation window).",
+                    "Determine if the requested change (e.g., color, quantity) is possible within the existing order system.",
+                    "Investigate item availability (stock, shipping options) for the desired changes."
+                ]
+            },
+            {
+                "step": "Present Available Solutions",
+                "details": [
+                    "If direct modification is possible, explain the process to the customer.",
+                    "If direct modification is not possible, explain alternative options such as:",
+                    "  *  Canceling the order and placing a new one with the desired changes.",
+                    "  *  Refusing the delivery or returning the item for a refund and placing a new order.",
+                    "  *  Arranging a carrier pickup for returns.",
+                    "  *  Suggesting the customer contact the store's Pro Desk or other specialized departments (e.g., custom blinds) for specific issues.",
+                    "  *  Offering price adjustments or discounts to compensate for inconveniences where appropriate.",
+                    "Clearly explain the implications of each option (e.g., changes to delivery timeframe, potential for double charges during cancellation/reorder).",
+                    "Provide information on contacting Home Depot Credit Services if financing is involved."
+                ]
+            },
+            {
+                "step": "Process the Chosen Solution",
+                "details": [
+                    "If the customer chooses cancellation and reorder, process the cancellation request.",
+                    "Assist the customer in placing a new order, if needed.",
+                    "Collect payment information securely for new orders.",
+                    "Confirm the delivery address for the new order.",
+                    "Provide the new order number and estimated delivery information.",
+                    "If processing a return, explain the return options (in-store, carrier pickup, etc.)."
+                ]
+            },
+            {
+                "step": "Confirmation and Follow-up",
+                "details": [
+                    "Confirm all changes with the customer.",
+                    "Provide relevant order numbers (original and new, if applicable).",
+                    "Inform the customer about expected email confirmations.",
+                    "Offer additional assistance and answer any remaining questions.",
+                    "Thank the customer for choosing The Home Depot and invite them to complete the satisfaction survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Damaged Product Return",
+        "customer_motivation": "The customer received a damaged product and wants to return it or explore alternative resolutions.",
+        "resolution_goals": [
+            "Process a return and refund for the damaged product.",
+            "Explore alternative solutions such as discounts or replacements to avoid the return process."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Verify the customer's identity by confirming the billing address, email address, and/or phone number associated with the order.",
+                    "Confirm the specific item that is damaged."
+                ]
+            },
+            {
+                "step": "Assess the Damage and Available Options",
+                "details": [
+                    "Ask the customer to describe the damage or provide images if possible.",
+                    "Determine if the product is eligible for return based on the return policy.",
+                    "Check if a replacement is available and feasible, considering shipping times and inventory.",
+                    "Explore options such as carrier pickup, in-store return, or keeping the item with a discount."
+                ]
+            },
+            {
+                "step": "Process the Return (if applicable)",
+                "details": [
+                    "If the customer chooses to return the item, initiate the return process.",
+                    "Schedule a carrier pickup (UPS or FedEx) if the customer prefers this option.",
+                    "Provide instructions for packaging the item securely for the return.",
+                    "Inform the customer about the refund process and the expected timeframe for receiving the refund.",
+                    "If the customer chooses in-store return, advise them to bring the item and the order number to the customer service desk."
+                ]
+            },
+            {
+                "step": "Offer Alternative Solutions (if applicable)",
+                "details": [
+                    "If a replacement is not immediately available, offer a discount for the customer to keep the damaged item.",
+                    "Negotiate the discount amount with the customer, if needed.",
+                    "If the customer accepts the discount, process the credit to their account.",
+                    "Explore options for price matching or additional discounts to compensate for the inconvenience."
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Follow Up",
+                "details": [
+                    "Summarize the agreed-upon resolution with the customer.",
+                    "Provide any necessary case numbers or tracking information.",
+                    "Ensure the customer knows how to follow up if they have further questions or concerns.",
+                    "Offer assistance with reordering a new product, if applicable, and mention any discounts that will be applied to the reorder.",
+                    "Direct the customer to Home Services for assembly assistance if needed for the new order."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Delayed Delivery",
+        "customer_motivation": "The customer is contacting customer service to inquire about the status of their order due to a delayed delivery or missing items.",
+        "resolution_goals": [
+            "Provide the customer with accurate and updated information regarding the status of their order, including the expected delivery date.",
+            "Address the customer's concerns about the delay and offer appropriate compensation or resolution options, such as a refund, discount, or escalation of the issue."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Information and Order Details",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Verify the customer's identity by requesting their full name, billing address, and email address associated with the order.",
+                    "Confirm the specific item(s) the customer is inquiring about."
+                ]
+            },
+            {
+                "step": "Investigate Order Status and Delivery Information",
+                "details": [
+                    "Access the order details in the system and check the current status of the shipment.",
+                    "Determine the carrier responsible for delivery and track the package using the provided tracking number.",
+                    "Identify the original estimated time of arrival (ETA) and compare it to the current delivery date.",
+                    "Check for any notes or updates regarding delays or issues with the order."
+                ]
+            },
+            {
+                "step": "Communicate Findings and Offer Solutions",
+                "details": [
+                    "Inform the customer about the order's current status, including any delays and the updated ETA.",
+                    "Acknowledge the inconvenience caused by the delay and apologize for the disruption.",
+                    "Offer potential solutions such as: creating a case for resolution team, canceling the order and issuing a refund (if applicable), offering a discount or partial refund as compensation, or escalating the issue to the vendor or carrier for further investigation.",
+                    "Clearly explain the next steps and expected timeline for resolution, including how the customer will be updated."
+                ]
+            },
+            {
+                "step": "Process Resolution and Follow Up",
+                "details": [
+                    "If applicable, process the refund, discount, or other compensation as agreed upon with the customer.",
+                    "Notate the order with all relevant information regarding the issue and resolution.",
+                    "Provide the customer with a case number or reference number for future inquiries.",
+                    "Thank the customer for their patience and understanding.",
+                    "Inform the customer about the survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Delivery Address Confirmation",
+        "customer_motivation": "The customer wants to confirm or update the delivery address associated with their order.",
+        "resolution_goals": [
+            "Confirm the current delivery address on file.",
+            "Update the delivery address if necessary."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Initial Greeting and Order Identification",
+                "details": [
+                    "Greet the customer and thank them for choosing The Home Depot.",
+                    "Ask for the order number to locate the customer's order.",
+                    "If the customer doesn't have the order number, attempt to locate the order using the email address or phone number associated with the order."
+                ]
+            },
+            {
+                "step": "Verify Billing Address",
+                "details": [
+                    "For security purposes, ask the customer to verify the full billing address (including street, city, state, and zip code) associated with the order."
+                ]
+            },
+            {
+                "step": "Confirm/Update Delivery Information",
+                "details": [
+                    "Confirm the current delivery address on file.",
+                    "If the customer needs to change the delivery address, process the address update according to company policy.",
+                    "Provide the customer with the expected delivery date and any relevant details about the delivery process (e.g., notification calls, delivery window)."
+                ]
+            },
+            {
+                "step": "Additional Assistance and Closing",
+                "details": [
+                    "Ask if the customer has any other questions or needs further assistance.",
+                    "Thank the customer for their business and inform them about the post-chat survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Delivery Charge Inquiry",
+        "customer_motivation": "The customer is inquiring about a charge, often related to delivery or shipping fees, or unexpected charges on their account.",
+        "resolution_goals": [
+            "Determine the reason for the delivery or shipping charge.",
+            "Provide options to resolve the issue, such as a refund, dispute with bank, or store pickup."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Request the order number, email address, or billing/shipping address associated with the order for verification purposes.",
+                    "If an order number is unavailable, attempt to locate the order using the customer's phone number or email address."
+                ]
+            },
+            {
+                "step": "Investigate the Charge",
+                "details": [
+                    "Access the order details to review charges, including delivery/shipping fees and authorization charges.",
+                    "Determine if the charge is legitimate based on order details (e.g., scheduled delivery, special order, system error)."
+                ]
+            },
+            {
+                "step": "Provide Explanation and Options",
+                "details": [
+                    "Explain the reason for the charge (e.g., scheduled delivery, authorization charge, duplicate charge).",
+                    "Offer solutions based on the reason for the charge:",
+                    "  * For legitimate charges, explain why they apply.",
+                    "  * For duplicate charges, advise contacting their bank to dispute the charge.",
+                    "  * For shipping charges the customer wasn't expecting, offer store pickup as an alternative.",
+                    "  * If an item was confirmed delivered but missing, suggest disputing the charge with their bank, filing a claim with the carrier, or filing a police report for theft.",
+                    "If unable to locate the charge, offer a secure card entry form to research charges made on the card, or advise contacting their bank to dispute the charge."
+                ]
+            },
+            {
+                "step": "Process Resolution (if applicable)",
+                "details": [
+                    "If appropriate and authorized, process a refund for incorrect charges.",
+                    "For missing items after confirmed delivery, provide a one-time courtesy refund."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Delivery Date Change",
+        "customer_motivation": "The customer wants to inquire about or modify the delivery date of an existing order.",
+        "resolution_goals": [
+            "Determine the current delivery status and estimated delivery date.",
+            "Change the delivery date if possible, or provide alternative solutions if direct modification is not available."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Identity and Order",
+                "details": [
+                    "Request the customer's full billing address, email address, and/or order number for verification.",
+                    "Use the provided information to locate the order in the system."
+                ]
+            },
+            {
+                "step": "Determine Delivery Status and Options",
+                "details": [
+                    "Check the order status and estimated delivery date.",
+                    "Check if expedited shipping or delivery to an alternate address (home vs. store) is available.",
+                    "Determine if the order is 'shipped to store' or 'shipped to customer'."
+                ]
+            },
+            {
+                "step": "Attempt to Modify Delivery Date (if possible)",
+                "details": [
+                    "If the order is with a third-party carrier (e.g., Estes), provide the carrier's contact information and tracking ID.",
+                    "Inform the customer that they need to contact the carrier directly to reschedule the delivery.",
+                    "If possible, contact the carrier on the customer's behalf to request a callback to reschedule.",
+                    "If the delivery cannot be changed, explain the reason to the customer (e.g., online exclusive, lack of delivery vehicle)."
+                ]
+            },
+            {
+                "step": "Offer Alternative Solutions (if modification is not possible)",
+                "details": [
+                    "If 'ship to store' order: Explain you are unable to change it to delivery.",
+                    "Offer to submit a cancellation request, and inform the customer about the cancellation process and potential outcomes (successful cancellation, 'It's Shipped' email).",
+                    "Explain the refund process if the order cannot be cancelled and needs to be returned to a store.",
+                    "For delays: Apply a discount as compensation for the inconvenience."
+                ]
+            },
+            {
+                "step": "Address Additional Issues and Close",
+                "details": [
+                    "Confirm if the customer needs assistance with placing a new order (if the original order was cancelled).",
+                    "Ask if there is anything else the customer needs assistance with.",
+                    "Thank the customer for their business and invite them to complete the survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Delivery Date Discrepancy",
+        "customer_motivation": "The customer is contacting support because the delivery date of their order is different than expected.",
+        "resolution_goals": [
+            "Determine the correct delivery date for the customer's order.",
+            "Provide explanation for any discrepancies in the delivery date."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Verify the customer's identity by asking for the full billing address, name, or email associated with the order."
+                ]
+            },
+            {
+                "step": "Investigate Order Status",
+                "details": [
+                    "Check the current status of the order and any relevant tracking information.",
+                    "Determine the estimated delivery date according to the system."
+                ]
+            },
+            {
+                "step": "Explain Delivery Date Discrepancy",
+                "details": [
+                    "Inform the customer of the correct estimated delivery date.",
+                    "Explain that estimated delivery dates are not guaranteed.",
+                    "If applicable, explain the reason for delay or change in the delivery date (e.g., warehouse delays, shipping issues, inventory problems, or reassignment to another store).",
+                    "If the item was cancelled, then inform the customer and explain reason for cancellation, such as inventory issues."
+                ]
+            },
+            {
+                "step": "Offer Resolution (If Applicable)",
+                "details": [
+                    "If the order has been cancelled, assist with reordering, if desired.",
+                    "If the order is delayed due to inventory issues, attempt to locate the item at another store, either for delivery or in-store pickup.",
+                    "If the item was mistakenly shipped to a different address or not received after being marked as delivered, advise the customer to contact their credit card company to dispute the charge.",
+                    "Offer a discount or gift card for the inconvenience if deemed appropriate by company policy and level of authority."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Delivery Inquiry",
+        "customer_motivation": "The customer is inquiring about the status or details of an order they have placed.",
+        "resolution_goals": [
+            "Provide the customer with accurate and up-to-date information regarding their order's status, delivery date, or pickup availability.",
+            "Address any issues or concerns the customer may have regarding their order, such as damage, delays, or incorrect items."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Obtain the customer's order number.",
+                    "Verify the customer's billing address or other identifying information associated with the order.",
+                    "Confirm the items included in the order."
+                ]
+            },
+            {
+                "step": "Check Order Status",
+                "details": [
+                    "Check the order status in the system (e.g., processing, shipped, ready for pickup).",
+                    "Identify the expected delivery or pickup date.",
+                    "Determine if the order is being shipped to the customer's address or to a local store."
+                ]
+            },
+            {
+                "step": "Provide Order Information to Customer",
+                "details": [
+                    "Communicate the order status, delivery date/pickup window, and any other relevant details to the customer.",
+                    "If the order is delayed, explain the reason for the delay and provide an estimated timeframe for resolution.",
+                    "For pickup orders, inform the customer of the pickup timeframe (usually 7 days once ready)."
+                ]
+            },
+            {
+                "step": "Address Customer Concerns",
+                "details": [
+                    "If the customer reports damage, initiate a return or exchange process.",
+                    "If an item is missing, investigate the issue and offer a resolution (e.g., reshipment, refund).",
+                    "If the customer needs to modify the order (e.g., change delivery address), determine if it's possible and take appropriate action."
+                ]
+            },
+            {
+                "step": "Provide Additional Assistance (If Needed)",
+                "details": [
+                    "For online orders, provide the customer with instructions on how to track their shipment.",
+                    "Provide the local store's phone number for pickup orders.",
+                    "If needed, contact the store directly to inquire about the order status or resolve issues.",
+                    "Consider offering a discount or gift card as compensation for significant inconveniences."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Delivery Notification Preference",
+        "customer_motivation": "The customer wants to confirm or update their delivery notification preferences or inquire about delivery status and updates.",
+        "resolution_goals": [
+            "Confirm the customer's current notification preferences and delivery information.",
+            "Ensure the customer understands how and when they will receive delivery notifications."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Identity and Order Details",
+                "details": [
+                    "Greet the customer and thank them for choosing The Home Depot.",
+                    "Request and verify the order number and email address, or billing address, for security purposes."
+                ]
+            },
+            {
+                "step": "Investigate Order Status and Notification Settings",
+                "details": [
+                    "Check the order status to determine if the order is processing, shipped, or ready for pickup/delivery.",
+                    "Verify the email address associated with the order and confirm if it's correct.",
+                    "Confirm whether notifications are enabled and being sent to the correct email address."
+                ]
+            },
+            {
+                "step": "Provide Information and Options",
+                "details": [
+                    "Explain how the customer will receive delivery notifications (e.g., email, SMS).",
+                    "If applicable, resend the order confirmation or shipping notification email.",
+                    "If there are delays, explain the reason (e.g., vendor delay) and potential solutions (e.g., discount).",
+                    "If the customer wants to change the delivery date, change delivery date.",
+                    "Provide the customer service phone number if needed."
+                ]
+            },
+            {
+                "step": "Resolve and Close",
+                "details": [
+                    "Confirm that the customer understands the delivery notification process.",
+                    "Offer additional assistance or answer any remaining questions.",
+                    "Thank the customer for their business and invite them to complete a survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Expedited Pickup",
+        "customer_motivation": "The customer wants to receive their order faster than the initially provided delivery estimate.",
+        "resolution_goals": [
+            "Determine if expedited shipping or pickup options are available for the order.",
+            "If expedited options are unavailable, explore alternative solutions such as discounts or in-store alternatives."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Confirm the billing or shipping address associated with the order.",
+                    "Verify the email address associated with the order."
+                ]
+            },
+            {
+                "step": "Check for Expedited Options",
+                "details": [
+                    "Check if expedited shipping is available for the order.",
+                    "Check if in-store pickup is available for the item, especially if shipping is delayed."
+                ]
+            },
+            {
+                "step": "Provide Alternatives (If Expediting is Unavailable)",
+                "details": [
+                    "Inform the customer that expedited shipping is not available.",
+                    "If the item is delayed, offer a discount on the order.",
+                    "Offer a gift card for a percentage off as compensation for the delay.",
+                    "Suggest picking up the item in-store if it's available and returning the shipped order upon arrival.",
+                    "Offer to call the carrier to request the delivery be refused and returned to sender."
+                ]
+            },
+            {
+                "step": "Finalize Resolution",
+                "details": [
+                    "Confirm the chosen solution with the customer.",
+                    "Process any agreed-upon discounts or returns.",
+                    "Provide any necessary follow-up information or instructions.",
+                    "Thank the customer for their business."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Fraud Dispute",
+        "customer_motivation": "The customer believes they have been fraudulently charged or contacted regarding a Home Depot order.",
+        "resolution_goals": [
+            "Determine if a fraudulent order exists.",
+            "Provide guidance to the customer regarding the fraudulent activity."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Identity and Order Information",
+                "details": [
+                    "Ask for the order number.",
+                    "Request verification of the full name and billing address associated with the order.",
+                    "Ask for the email address and phone number associated with the order."
+                ]
+            },
+            {
+                "step": "Search for the Order",
+                "details": [
+                    "Search for the order using the provided order number.",
+                    "If the order number is unavailable, search using the customer's phone number and email address.",
+                    "Inquire if the order was placed online or in-store.",
+                    "If unable to locate the order, ask if the order could be under a different phone number or email."
+                ]
+            },
+            {
+                "step": "Determine the Nature of the Fraud",
+                "details": [
+                    "Ask if the customer paid with PayPal or credit card.",
+                    "Inquire about the details of the fraudulent email or text, such as the sender and requested action.",
+                    "Request screenshots of the emails and texts the customer received."
+                ]
+            },
+            {
+                "step": "Provide Guidance and Next Steps",
+                "details": [
+                    "If no order is found, inform the customer that there may be fraudulent emails and texts circulating.",
+                    "If the order was placed using PayPal as a guest, inform the customer.",
+                    "If a charge exists but no order exists in Home Depot's system, recommend the customer contact Paypal directly to remove the charge.",
+                    "Document all findings and actions taken in the customer's account notes.",
+                    "If the customer received a fraudulent email, guide them to unsubscribe from promotional emails and newsletters."
+                ]
+            },
+            {
+                "step": "Transfer to Appropriate Department (If Needed)",
+                "details": [
+                    "Transfer the customer to the associate the customer was texting with to further assist them with the information gathered and screenshots provided. Inform the new associate to read the notes in the account."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Gift Card Balance Inquiry",
+        "customer_motivation": "The customer wants to inquire about their Home Depot gift card balance or how to use it.",
+        "resolution_goals": [
+            "Provide the customer with accurate information on their gift card balance and usage.",
+            "Resolve any issues the customer is experiencing with using the gift card for a purchase."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Identity and Order Details (if applicable).",
+                "details": [
+                    "Ask for the order number if the inquiry is related to a specific order.",
+                    "Request the customer's email address and billing address for security verification.",
+                    "Confirm if the customer is referring to a physical gift card or an e-gift card."
+                ]
+            },
+            {
+                "step": "Provide Gift Card Balance Information.",
+                "details": [
+                    "Direct the customer to the Home Depot website's gift card balance check page.",
+                    "Advise the customer to call the phone number on the back of the physical gift card.",
+                    "Check the order details to verify if a gift card was successfully applied to a purchase."
+                ]
+            },
+            {
+                "step": "Troubleshoot Gift Card Usage Issues.",
+                "details": [
+                    "If the customer is having trouble using the gift card online, inform them about the limit of 10 gift cards per online transaction.",
+                    "If online gift card use is not working, suggest visiting a physical store to complete the purchase.",
+                    "Investigate possible system processing errors or other technical issues that might be preventing gift card usage and escalate if needed."
+                ]
+            },
+            {
+                "step": "Address E-Gift Card Delivery Issues.",
+                "details": [
+                    "If the customer hasn't received an e-gift card, advise them to check their spam/junk folders.",
+                    "Inform the customer that e-gift card delivery can take up to 24 hours.",
+                    "If the e-gift card is not received after 24 hours, offer to investigate further or resend the e-gift card."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "In-Store Pickup",
+        "customer_motivation": "Customer wants to know the status of their order, explore options for in-store pickup, or modify the delivery method to in-store pickup.",
+        "resolution_goals": [
+            "Provide the customer with accurate information regarding the order status and estimated delivery date.",
+            "Facilitate in-store pickup if available and desired by the customer."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Ask for the customer's full name and billing address associated with the order.",
+                    "Confirm the order number."
+                ]
+            },
+            {
+                "step": "Check Order Status and Item Availability",
+                "details": [
+                    "Check the current status of the order and the estimated delivery date.",
+                    "Verify if the ordered item is available for in-store pickup at the customer's preferred location."
+                ]
+            },
+            {
+                "step": "Provide Options to the Customer",
+                "details": [
+                    "If the item is online-only, explain that in-store pickup is not an option.",
+                    "If in-store pickup is available and desired, facilitate the process (cancellation of original order and placement of new order for in-store pickup).",
+                    "If the order is already in transit, inform the customer about return options: refusing the delivery, returning to a local store, or arranging a carrier pickup/drop-off."
+                ]
+            },
+            {
+                "step": "Address Delivery Delays (If Applicable)",
+                "details": [
+                    "Acknowledge the customer's frustration regarding any delays.",
+                    "Explain that delivery ETAs are approximate and subject to change.",
+                    "Offer alternative solutions, such as checking for in-store availability of a similar item or expediting the process by going to a local store."
+                ]
+            },
+            {
+                "step": "Provide Additional Assistance",
+                "details": [
+                    "Offer to update the order notes with customer concerns.",
+                    "If the store is closed, provide store contact number for follow up.",
+                    "Address any additional issues or questions raised by the customer."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Incorrect Address",
+        "customer_motivation": "The customer wants to correct or update the delivery address associated with their order.",
+        "resolution_goals": [
+            "Update the shipping address if possible.",
+            "Provide alternative solutions if the address cannot be updated (e.g., holding at a UPS location, reordering, contacting carrier)."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details and Customer Identity",
+                "details": [
+                    "Obtain the order number.",
+                    "Verify the customer's identity by requesting and confirming the full billing address, including the zip code and email address."
+                ]
+            },
+            {
+                "step": "Assess Address Change Feasibility",
+                "details": [
+                    "Determine if the address change is considered minor or major.",
+                    "If the package is already in transit and the address change is major (significant change to street address or city), inform the customer that an address change may not be possible."
+                ]
+            },
+            {
+                "step": "Provide Address Change Options",
+                "details": [
+                    "For minor address changes, contact the carrier (e.g., OnTrac) to update the address. Provide the customer with the carrier's contact information and the tracking number.",
+                    "If a direct address change is not possible: Suggest holding the package at a carrier location (UPS/FedEx) for pickup.",
+                    "Offer to place a new order with the correct address if the customer prefers."
+                ]
+            },
+            {
+                "step": "Address Input Solutions",
+                "details": [
+                    "Guide customer to the address setting page to update or add a default address with details like gate codes.",
+                    "Provide explicit instructions where to put special notes like gate codes when entering the address during checkout."
+                ]
+            },
+            {
+                "step": "Address Delivery Concerns",
+                "details": [
+                    "Explain that delivery ETAs are estimates.",
+                    "Proactively monitor the delivery and communicate updates."
+                ]
+            },
+            {
+                "step": "Offer Compensation",
+                "details": [
+                    "If appropriate due to significant delays or issues, offer a discount or compensation to acknowledge the inconvenience."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Incorrect Contact Information",
+        "customer_motivation": "The customer has contacted support due to incorrect contact information associated with their order, typically a phone number or email address.",
+        "resolution_goals": [
+            "Update the contact information associated with the order.",
+            "Ensure the customer receives delivery notifications at the correct number."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details and Customer Identity",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Confirm the full billing or shipping address associated with the order for security purposes."
+                ]
+            },
+            {
+                "step": "Identify and Confirm Incorrect Information",
+                "details": [
+                    "State the contact information currently on file (phone number or email).",
+                    "Confirm the correct contact information with the customer."
+                ]
+            },
+            {
+                "step": "Update Contact Information (If Possible)",
+                "details": [
+                    "If the system allows, update the phone number or email address associated with the order.",
+                    "If direct changes are not possible, add a note to the order with the correct contact information, requesting the delivery team to use it."
+                ]
+            },
+            {
+                "step": "Explain Delivery Notification Process",
+                "details": [
+                    "Inform the customer about the standard delivery notification process (e.g., driver calls 30 minutes prior to arrival).",
+                    "If applicable, explain any limitations on changing notification timing."
+                ]
+            },
+            {
+                "step": "Alternative Resolution - Cancellation/Reorder",
+                "details": [
+                    "If contact information cannot be changed (particularly address/email), offer to submit a cancellation request.",
+                    "Explain the cancellation process and potential outcomes (successful cancellation vs. 'It's Shipped' email).",
+                    "Advise that a new order with the correct information can be placed if cancellation is successful, and provide return options if cancellation fails."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Installation Inquiry",
+        "customer_motivation": "Customers are inquiring about the status, scheduling, or details of installation services purchased from Home Depot.",
+        "resolution_goals": [
+            "Provide accurate and up-to-date information regarding the customer's installation service.",
+            "Assist the customer in scheduling, rescheduling, or troubleshooting issues related to their installation."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Request and verify the customer's order number.",
+                    "Request and verify the billing or shipping address associated with the order.",
+                    "Confirm the type of installation service the customer is inquiring about (e.g., appliance, door, carpet)."
+                ]
+            },
+            {
+                "step": "Investigate Installation Status",
+                "details": [
+                    "Check the order details to see if installation was included.",
+                    "Check current installation status and scheduled dates/times.",
+                    "Contact the appropriate installation team, technician, or carrier for updates."
+                ]
+            },
+            {
+                "step": "Provide Customer with Information",
+                "details": [
+                    "Inform the customer of their scheduled installation date and time window.",
+                    "Provide contact information for the installation team or manufacturer if needed.",
+                    "If issues with scheduling or installation arise, offer to reschedule or escalate the issue."
+                ]
+            },
+            {
+                "step": "Address Installation Issues",
+                "details": [
+                    "If the installation appointment was missed or incorrectly scheduled, work to recreate or reschedule.",
+                    "Inquire with the carrier or store to get status updates.",
+                    "Investigate refund options or offer a discount if there were significant issues."
+                ]
+            },
+            {
+                "step": "Close and Follow Up",
+                "details": [
+                    "Summarize the actions taken and the resolution provided to the customer.",
+                    "Ensure the customer has no further questions or concerns.",
+                    "Thank the customer for their business and invite them to complete the customer satisfaction survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Late/Missing Delivery",
+        "customer_motivation": "Customer is contacting support because their order is late or missing.",
+        "resolution_goals": [
+            "Determine the status of the customer's order and provide updates.",
+            "Offer compensation or resolution for the delayed or missing delivery."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Information",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Verify the full billing address associated with the order for security purposes.",
+                    "Potentially ask for the customer's email address."
+                ]
+            },
+            {
+                "step": "Investigate Order Status",
+                "details": [
+                    "Check the order details and tracking information to determine the current status of the shipment.",
+                    "Check for the estimated delivery date (ETA).",
+                    "Contact the vendor or carrier for updates, if necessary.",
+                    "Determine if the order was placed online or in-store.",
+                    "Determine the number of packages expected for the order."
+                ]
+            },
+            {
+                "step": "Provide Updates and Options",
+                "details": [
+                    "Inform the customer about the order status, including any delays and the updated ETA.",
+                    "Apologize for the inconvenience caused by the delay.",
+                    "If the item is confirmed lost, offer a refund or reshipment.",
+                    "Offer a discount or refund for the inconvenience of the delayed delivery. Escalate for approval if needed.",
+                    "Document the agreed-upon resolution on the order."
+                ]
+            },
+            {
+                "step": "Process Resolution",
+                "details": [
+                    "Apply any agreed-upon markdowns or refunds to the order.",
+                    "Inform the customer about the refund process and timeframe.",
+                    "Send a confirmation email regarding the changes.",
+                    "Provide any tracking information if the item is still in transit."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Military Discount Inquiry",
+        "customer_motivation": "Customer wants to inquire about the military discount application to their purchase.",
+        "resolution_goals": [
+            "Determine if the military discount can be applied to the customer's purchase.",
+            "If applicable, apply the military discount or provide an alternative solution if the discount cannot be applied directly."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer and Order Details",
+                "details": [
+                    "Greet the customer and thank them for their service and for shopping at The Home Depot.",
+                    "Ask for the order number and full billing address to locate the order.",
+                    "Confirm that the provided information matches the order details."
+                ]
+            },
+            {
+                "step": "Determine Military Discount Eligibility",
+                "details": [
+                    "Check if the items in the order are eligible for the military discount (major appliances are often excluded).",
+                    "Inform the customer about any exclusions that apply to their specific order."
+                ]
+            },
+            {
+                "step": "Explore Alternative Solutions (If Applicable)",
+                "details": [
+                    "If the military discount cannot be applied, explore alternative options like a courtesy discount or other promotions.",
+                    "Clearly explain why the discount cannot be applied and present alternative solutions, if any."
+                ]
+            },
+            {
+                "step": "Offer Further Assistance and Close",
+                "details": [
+                    "Ask if the customer has any other questions or concerns.",
+                    "Thank the customer for their patience and understanding.",
+                    "Invite the customer to complete the survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Minimum Order Quantity Inquiry",
+        "customer_motivation": "The customer wants to purchase a single item that is typically sold in a set or minimum quantity.",
+        "resolution_goals": [
+            "Determine if a single item can be purchased instead of the full set or minimum quantity.",
+            "Provide alternative solutions if the single item cannot be purchased separately."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Product Details",
+                "details": [
+                    "Obtain the model number or internet number of the product.",
+                    "Obtain the customer's zip code to check product availability and specific details."
+                ]
+            },
+            {
+                "step": "Research Product Availability",
+                "details": [
+                    "Check if the product is sold individually or only as a set/case.",
+                    "Consult the product's Q&A section or product details to confirm minimum purchase quantity."
+                ]
+            },
+            {
+                "step": "Inform Customer of Findings",
+                "details": [
+                    "If sold only as a set, inform the customer that a single item cannot be purchased through Home Depot.",
+                    "If possible, provide the manufacturer's contact information so the customer can inquire about purchasing a single item directly."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "New Order",
+        "customer_motivation": "The customer wants to place a new order for items, often related to damaged deliveries, previously canceled orders, or items they were unable to purchase through the standard channels.",
+        "resolution_goals": [
+            "Facilitate the placement of a new order for the customer.",
+            "Address any underlying issues, such as damaged goods or previous order cancellations, and ensure customer satisfaction."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Information (if applicable)",
+                "details": [
+                    "Inquire about the previous order number if the new order is related to a past issue (e.g., damaged delivery).",
+                    "Confirm the customer's email address and full billing address for security purposes."
+                ]
+            },
+            {
+                "step": "Identify Required Items",
+                "details": [
+                    "Clearly identify the specific items the customer wants to include in the new order.",
+                    "Confirm the quantity of each item required."
+                ]
+            },
+            {
+                "step": "Confirm Delivery Address",
+                "details": [
+                    "Obtain the correct delivery address for the new order.",
+                    "If applicable, verify if the customer wants the order shipped to their home or a store for pickup."
+                ]
+            },
+            {
+                "step": "Calculate Order Total",
+                "details": [
+                    "Calculate the total cost of the new order, including any applicable taxes and shipping fees.",
+                    "Communicate the estimated delivery date to the customer."
+                ]
+            },
+            {
+                "step": "Process Payment",
+                "details": [
+                    "If the customer agrees to the order details, guide them through the payment process.",
+                    "Provide a secure method for the customer to enter their card information (e.g., a secure form link)."
+                ]
+            },
+            {
+                "step": "Address Related Issues (if applicable)",
+                "details": [
+                    "If the new order is a replacement for a damaged item, explore options like returning the damaged item or offering a discount if the customer chooses to keep it.",
+                    "Explain the cancellation and refund process for previously canceled orders if applicable.",
+                    "If item unavailable online, provide contact number for the Pro Desk to place an order through the vendor."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Order Cancellation",
+        "customer_motivation": "The customer wants to cancel an order.",
+        "resolution_goals": [
+            "Successfully cancel the order.",
+            "Inform the customer about the cancellation process, including potential outcomes (successful cancellation, shipment and return, etc.) and refund timelines."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Ask for the order number to locate the order.",
+                    "Request the customer's email address and/or billing address for verification purposes."
+                ]
+            },
+            {
+                "step": "Check Cancellation Status",
+                "details": [
+                    "Check the current status of the order to see if it is already pending cancellation.",
+                    "If not, determine if direct cancellation is possible based on the order placement time (e.g., within 45 minutes)."
+                ]
+            },
+            {
+                "step": "Initiate Cancellation Request",
+                "details": [
+                    "If direct cancellation is not possible, submit a cancellation request to the vendor or appropriate department (e.g., store for store orders, installers for installation orders).",
+                    "If a customer states they saw one price, and are seeing another, determine if they placed an order and/or put in any payment information."
+                ]
+            },
+            {
+                "step": "Communicate Cancellation Process & Outcomes",
+                "details": [
+                    "Explain that the cancellation is not guaranteed and depends on vendor/department approval.",
+                    "Inform the customer about the possible outcomes: cancellation confirmation email, 'It's Shipped' email (requiring a return), or instructions for returning the item to a local store for a refund.",
+                    "Provide estimated refund processing times (e.g., 3-5 business days)."
+                ]
+            },
+            {
+                "step": "Address Alternative Solutions (If Applicable)",
+                "details": [
+                    "If the customer wants to reorder and the order was cancelled due to an out-of-stock situation, check if the item is now available and offer to honor the original price (potentially with a discount).",
+                    "If the item was shipped to the wrong location, offer a cancellation and a new order to the correct location.",
+                    "If the item arrived damaged, offer a return (pickup or in-store) or a discount."
+                ]
+            },
+            {
+                "step": "Provide Additional Support Information",
+                "details": [
+                    "Provide contact information for further assistance (e.g., text us, call us).",
+                    "If the customer wants to reschedule a delivery coming from the store, provide the store phone number."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Order Issue Resolution",
+        "customer_motivation": "The customer is contacting support to resolve issues related to their order, such as tracking updates, delivery changes, cancellations, or pricing discrepancies.",
+        "resolution_goals": [
+            "Provide accurate order status and tracking information.",
+            "Resolve issues with deliveries, cancellations, or pricing."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Information",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Confirm the billing address (street, city, state, zip code).",
+                    "Verify the email address associated with the order.",
+                    "Ask for the model number of the item (if applicable)."
+                ]
+            },
+            {
+                "step": "Investigate Order Status",
+                "details": [
+                    "Check the order status and estimated delivery date (ETA) in the system.",
+                    "Determine if the order is shipping from a store or a warehouse.",
+                    "If store level order, contact the store directly for updates.",
+                    "Check for any notes or updates regarding the order, such as cancellations or delays.",
+                    "Investigate tracking information and carrier details (UPS, FedEx, etc.)."
+                ]
+            },
+            {
+                "step": "Address Delivery Issues",
+                "details": [
+                    "Explain potential delays and factors affecting delivery times (e.g., high volume season).",
+                    "If possible, provide the customer with the carrier's contact information or website to manage delivery preferences (e.g., FedEx Delivery Manager).",
+                    "Explain any limitations on changing the delivery method or expediting shipping.",
+                    "For appliance deliveries held longer than 30 days, explain the return to manufacturer policy and the need to place a new order.",
+                    "If a delivery is missed or needs rescheduling, provide the store's contact number."
+                ]
+            },
+            {
+                "step": "Handle Order Modifications and Cancellations",
+                "details": [
+                    "Explain that once an order is placed, items cannot be added or exchanged.",
+                    "Inform the customer about submitting a cancellation request, but clarify that it cannot be guaranteed.",
+                    "If the order was cancelled, investigate the reason for cancellation.",
+                    "If items were damaged or out of stock, check the availability at nearby store locations.",
+                    "For buy online pick up in store orders, advise calling the store to confirm stock before placing a new online order."
+                ]
+            },
+            {
+                "step": "Resolve Pricing Discrepancies",
+                "details": [
+                    "Explain that prices are subject to change based on geographical location.",
+                    "If a customer is seeking a price match from another store, recommend purchasing from the store with the lower price or visiting the store where the quote was created.",
+                    "If the current price is higher than the original price due to a cancellation, check with the Resolutions Team to see if the original price can be honored.",
+                    "Clarify that military discounts may not apply to expired promotions and cannot be applied retroactively."
+                ]
+            },
+            {
+                "step": "Provide Alternative Solutions",
+                "details": [
+                    "If an item is unavailable for delivery, suggest purchasing the item in-store and returning the original order upon arrival.",
+                    "Suggest creating a new order for pickup if expedited service is needed.",
+                    "If curbside pickup is unavailable, advise the customer to park in the designated area and call the store.",
+                    "Offer to resend the order confirmation email with details."
+                ]
+            },
+            {
+                "step": "Escalate as Needed",
+                "details": [
+                    "Connect the customer with the Pro Support team for questions about Pro Xtra benefits.",
+                    "If an agent needs to contact another team (e.g., Resolutions Team), keep the customer informed of the status and expected wait time.",
+                    "Note any relevant details on the order for future reference by other agents."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Order Placement Issue",
+        "customer_motivation": "The customer is experiencing issues with placing, modifying, tracking, or understanding the details of an order.",
+        "resolution_goals": [
+            "Resolve the customer's specific order-related issue (e.g., placing a new order, modifying an existing order, checking order status).",
+            "Provide a seamless and satisfactory customer experience by offering relevant information and alternative solutions when necessary."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Identify Customer Issue and Gather Information",
+                "details": [
+                    "Ask the customer to describe the order issue they are experiencing.",
+                    "Request the order number, email address, full billing address (including street, city, and zip code) or phone number associated with the order.",
+                    "Confirm specific details such as item internet/model number, delivery zip code, or order date if necessary for issue resolution."
+                ]
+            },
+            {
+                "step": "Investigate the Order Details",
+                "details": [
+                    "Search the order using the provided information.",
+                    "Check the order status, delivery date, items included, and any relevant notes.",
+                    "Determine if the issue is related to product availability, pricing, delivery limitations, payment problems, or other factors."
+                ]
+            },
+            {
+                "step": "Provide a Solution and Guide the Customer",
+                "details": [
+                    "If the customer wants to purchase individual items, inform them that special orders can only be placed in-store.",
+                    "Advise the customer on how to modify their order (e.g., removing items, changing wand location for blinds).",
+                    "If an item is out of stock online, suggest checking in-store availability or provide the store's phone number.",
+                    "Provide accurate delivery charge information by asking the customer to add items to their cart and input their address on the website.",
+                    "Offer alternative solutions such as initiating a return for damaged items and placing a new order with a discount.",
+                    "Provide a secure link for payment if the order can be placed or modified through chat. (https://homedepot.cardeasy.com/)",
+                    "If there are payment errors, suggest the customer contact Credit Services or try an alternate payment method.",
+                    "If the order cannot be placed online, recommend visiting a local store to place the order."
+                ]
+            },
+            {
+                "step": "Follow up and confirm Resolution",
+                "details": [
+                    "Confirm if the customer was able to make the changes or if they need any additional assistance.",
+                    "Once the issue is resolved, summarize the steps taken and ensure customer satisfaction.",
+                    "Inform the customer about the brief 3-question survey and thank them for choosing The Home Depot."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Order Status",
+        "customer_motivation": "Customers contact the agent to inquire about the status of their order, including delivery dates, potential delays, tracking information, or readiness for pickup.",
+        "resolution_goals": [
+            "Provide the customer with accurate and up-to-date information regarding their order status.",
+            "Address any issues or concerns related to the order, such as delays, damages, or rescheduling delivery."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Information",
+                "details": [
+                    "Request and confirm the customer's full billing address, email address, and/or order number for security and to locate the correct order.",
+                    "If the customer is a Pro Xtra member, acknowledge and thank them for their loyalty."
+                ]
+            },
+            {
+                "step": "Investigate Order Status",
+                "details": [
+                    "Access the order details in the system to determine the current status (e.g., in transit, out for delivery, ready for pickup).",
+                    "Check for any notes or updates related to the order, such as potential delays, damage reports, or rescheduled deliveries.",
+                    "Determine if the order is a direct shipment, store order, or online order to determine the available options."
+                ]
+            },
+            {
+                "step": "Communicate Order Status to Customer",
+                "details": [
+                    "Clearly and concisely explain the current status of the order to the customer.",
+                    "Provide the estimated arrival window or delivery date, if available.",
+                    "Acknowledge any potential delays and offer reassurance or potential solutions (e.g., allowing extra days for delivery, offering a discount).",
+                    "Explain any necessary procedures, such as rescheduling delivery or returning damaged items."
+                ]
+            },
+            {
+                "step": "Address Specific Issues and Offer Solutions",
+                "details": [
+                    "If the order is delayed, explain the reason for the delay and offer potential solutions, such as allowing extra delivery time or issuing a refund if the order is not received by a specific date.",
+                    "If the item is damaged, offer options such as setting up a return, issuing a refund, or arranging for a replacement.",
+                    "If the customer wants to expedite shipping, check if that is an option and advise if available.",
+                    "If a delivery needs to be rescheduled, explain the process and any limitations (e.g., rescheduling is not possible while the order is in transit).",
+                    "If the order was placed using PayPal but was not processed, recommend contacting PayPal directly to resolve the issue.",
+                    "If the customer inquires about Pro Xtra Perks not being applied, inform the customer that the issue will be sent to the IT team for adjustment (with a 72-hour follow-up).",
+                    "If there is a cancellation request, verify the vendor's status. Once the vendor approves the cancellation the customer will be notified by email.",
+                    "Explain store pickup procedures. If the order includes assembly, state that this takes longer for the order to be ready."
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Offer Additional Assistance",
+                "details": [
+                    "Confirm that the customer understands the information provided and any actions taken.",
+                    "Inquire if there is anything else the agent can assist with.",
+                    "Thank the customer for their patience and business.",
+                    "Encourage the customer to participate in a brief survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Order Tracking Inquiry",
+        "customer_motivation": "Customer wants to know the current status or location of their order.",
+        "resolution_goals": [
+            "Provide accurate tracking information for the customer's order.",
+            "Address any delivery concerns or delays and offer appropriate solutions."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Identity and Order Details",
+                "details": [
+                    "Request and confirm the customer's email address associated with the order.",
+                    "Ask for the full billing or shipping address including city, state, and zip code.",
+                    "Request and confirm the order number.",
+                    "Ask for the customer's full name, phone number, or a brief description of the product for verification purposes."
+                ]
+            },
+            {
+                "step": "Locate and Review Order Information",
+                "details": [
+                    "Access the order details using the provided information.",
+                    "Check the current status of the order.",
+                    "Review the estimated delivery date (ETA).",
+                    "Check the tracking information from the carrier (e.g., FedEx, UPS, OnTrac)."
+                ]
+            },
+            {
+                "step": "Provide Order Status and Tracking Details",
+                "details": [
+                    "Inform the customer of the current order status (e.g., shipped, in transit, delivered, delayed).",
+                    "Share the tracking number(s) and the carrier's website for tracking.",
+                    "If there are multiple shipments, provide tracking numbers for each.",
+                    "Explain any delays and the reasons behind them (e.g., unreadable label, carrier delays)."
+                ]
+            },
+            {
+                "step": "Address Delivery Concerns and Offer Solutions",
+                "details": [
+                    "Acknowledge the customer's frustration with delays.",
+                    "If the order is delayed, explain the reason and provide a revised ETA.",
+                    "Offer a discount or other form of compensation for the inconvenience of a delayed order.",
+                    "Provide information on how the customer can add delivery instructions directly on the carrier's website.",
+                    "If an item is missing parts, investigate the tracking and share the direct link.",
+                    "If an order is lost or significantly delayed, inform the customer about the possibility of a refund or reshipment.",
+                    "If the customer has a duplicate account, advise on how to correct it."
+                ]
+            },
+            {
+                "step": "Confirm Customer Satisfaction and Close Interaction",
+                "details": [
+                    "Ensure the customer is satisfied with the provided information and solutions.",
+                    "Ask if there is anything else the agent can assist with.",
+                    "Thank the customer for choosing The Home Depot.",
+                    "Encourage the customer to complete a brief survey about their experience."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Payment Method",
+        "customer_motivation": "Customers are contacting customer service to resolve issues related to their payment methods or payment processing for Home Depot orders.",
+        "resolution_goals": [
+            "Resolve payment issues such as declined cards, authorization failures, or incorrect payment methods.",
+            "Update payment information or re-process payments for existing orders."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Identity and Order Details",
+                "details": [
+                    "Request and verify the customer's full billing address (including city, state, and zip code).",
+                    "Obtain and verify the order number or email address associated with the order.",
+                    "Confirm the items included in the order for verification.",
+                    "If the customer is a Pro Xtra member, acknowledge their loyalty and spending."
+                ]
+            },
+            {
+                "step": "Diagnose the Payment Issue",
+                "details": [
+                    "Check the order status to identify the specific payment issue (e.g., authorization failure, declined card, PayPal issue).",
+                    "Determine if the customer is attempting to use a specific payment method (e.g., gift card, PayPal, credit card).",
+                    "Determine if the full amount was taken out of the customers account."
+                ]
+            },
+            {
+                "step": "Offer Solutions Based on the Payment Issue",
+                "details": [
+                    "If the payment declined or had an authorization failure: Offer to resubmit the payment with the same card or a different card.",
+                    "If the customer wants to use a different card or billing address: Provide a secure payment link to collect the new card details.",
+                    "If using a gift card: Ensure it was correctly applied to the order.",
+                    "If there is a PayPal issue: Advise the customer to contact PayPal directly to resolve authorization or payment plan issues.  Advise that PayPal orders can only be placed on the website.",
+                    "If an installment plan application didn't go through, advise the customer to contact PayPal directly.",
+                    "If the order was canceled due to a payment issue: Inform the customer that the order was canceled and explain why.",
+                    "If customer wants to reinstate the order, determine if the sale is still going on to honor the same listed price for a new order. Offer a discount to compensate for the inconvenience."
+                ]
+            },
+            {
+                "step": "Process Payment Updates or Reorders",
+                "details": [
+                    "If retrying the same card: Retry the payment and monitor the result.",
+                    "If using a new card via secure payment link: Guide the customer through the form and confirm submission.",
+                    "If a new order is needed: Set up the new order with the correct items and quantities, and offer any applicable discounts.",
+                    "Confirm the delivery address for the new order.",
+                    "Communicate the total cost and estimated delivery date."
+                ]
+            },
+            {
+                "step": "Address Financing and Pro Xtra Inquiries",
+                "details": [
+                    "For financing questions: Advise the customer to contact Home Depot Credit Services to ensure interest-free financing is applied correctly.",
+                    "For Pro Xtra inquiries: Transfer the customer to the Pro Support team, or answer Pro Xtra related questions about quotes, perks, and credit cards."
+                ]
+            },
+            {
+                "step": "Finalize and Confirm",
+                "details": [
+                    "Once payment is successfully processed, confirm the order details and provide the new order number.",
+                    "Inform the customer that they will receive a confirmation email.",
+                    "Ask if there are any further questions or concerns.",
+                    "Thank the customer for their business and invite them to complete a brief survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Price Discrepancy",
+        "customer_motivation": "The customer is contacting support because the price they are seeing for an item or order has changed or differs from what they expect.",
+        "resolution_goals": [
+            "Resolve the price discrepancy and ensure the customer pays the correct price.",
+            "Maintain customer satisfaction by honoring original prices when possible and offering alternative solutions like discounts when necessary."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer and Order Details",
+                "details": [
+                    "Ask for the customer's email address, order number, or other identifying information to access their account and order history.",
+                    "Confirm the billing or shipping address associated with the order to ensure accurate verification.",
+                    "Identify the specific items or the entire order that is experiencing the price discrepancy."
+                ]
+            },
+            {
+                "step": "Investigate the Price Discrepancy",
+                "details": [
+                    "Review the order details to understand the original price, any applied discounts or promotions, and the current price.",
+                    "Check for any changes in stock availability or cancellation status that might affect pricing.",
+                    "Determine if the price difference is due to taxes, fees, shipping costs, or other factors.",
+                    "Investigate if there were special promotions running on a previous date or if it was a 'special buy.'"
+                ]
+            },
+            {
+                "step": "Offer Solutions and Price Adjustments",
+                "details": [
+                    "If the price discrepancy is due to an error, offer to honor the original price.",
+                    "If the item is out of stock or no longer available at the original price, explore alternative solutions such as discounts or price matching.",
+                    "Consider refunding the price difference if the customer has already been charged the higher amount.",
+                    "If a previous order was cancelled, attempt to reorder at the original price or offer a discount on the current price.",
+                    "For payment issues, explain the cancellation reason and offer to create a new order at the current price, exploring price match options if possible.",
+                    "Create a case for delivery updates to get an ETA for the delivery to the customer ASAP, offer 10% off for delivery delay and any inconvenience this may have caused."
+                ]
+            },
+            {
+                "step": "Process the Resolution",
+                "details": [
+                    "If a price adjustment is necessary, manually apply the discount or refund in the system.",
+                    "If a new order needs to be placed, guide the customer through the process and ensure they understand the final price.",
+                    "Provide clear instructions on how the refund will be processed and when the customer can expect to see it.",
+                    "If a price match or discount needs escalation, inform the customer to chat back once they place the new order, so the agent can apply the discount.",
+                    "Provide payment links to the customer's email for them to verify the information and order total."
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Follow-up",
+                "details": [
+                    "Confirm with the customer that the price discrepancy has been resolved to their satisfaction.",
+                    "Provide the new order number or refund confirmation number for their reference.",
+                    "Offer additional assistance or support if needed.",
+                    "Direct customers to Home Depot credit services to ensure they apply any interest-free financing to the new purchase.",
+                    "Contact vendor about damage and manufacturing issues."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Promotional Code Issue",
+        "customer_motivation": "Customer is encountering an issue with a promotional code during checkout or after an order has been placed.",
+        "resolution_goals": [
+            "Determine why the promotional code is not working and provide a solution.",
+            "If the agent cannot resolve the issue directly, provide the customer with the appropriate contact information for further assistance."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order and Promotion Details",
+                "details": [
+                    "Request the customer's email address or order number to locate the order.",
+                    "Inquire about the specific promotional code the customer is trying to use.",
+                    "Confirm if the promotion is associated with a Home Depot credit card or a general promotion."
+                ]
+            },
+            {
+                "step": "Troubleshoot the Promotion Issue",
+                "details": [
+                    "Check if the promotion is valid for online orders or in-store purchases only.",
+                    "Verify that the items in the cart meet the eligibility requirements for the promotion (e.g., minimum purchase amount, specific products).",
+                    "Determine if the promotion code has already been used on a previous order, even if the order was cancelled or returned."
+                ]
+            },
+            {
+                "step": "Provide Solutions or Alternative Options",
+                "details": [
+                    "If the promotion is valid and applicable, manually adjust the price or notate the order for price matching.",
+                    "If the agent can manually add the discount, then do so.",
+                    "If the promotion is a credit-related offer, provide the customer with the phone number for Credit Services (800-677-0232) and instruct them to contact the department to apply the discount or address the issue.",
+                    "If the order has already been placed and the promotion cannot be applied, explain that promotions cannot be added after an order is placed, and suggest cancelling and reordering with the correct promotion."
+                ]
+            },
+            {
+                "step": "Escalate if Necessary",
+                "details": [
+                    "If the issue cannot be resolved, create a ticket and inform the customer that they will be contacted with a resolution.",
+                    "If the system is encountering errors, escalate the issue to the appropriate team."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Refund Inquiry",
+        "customer_motivation": "The customer is seeking a refund for an order or a portion of an order due to various reasons such as cancellation, damage, delay, or incorrect refund amount.",
+        "resolution_goals": [
+            "Process a full or partial refund for the customer.",
+            "Address the underlying issue causing the refund request (e.g., order cancellation, missing items, delayed delivery)."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer and Order Details",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Request and verify the customer's full name, billing address, phone number, and email address associated with the order.",
+                    "Confirm the specific item(s) or reason for the refund request."
+                ]
+            },
+            {
+                "step": "Investigate the Issue",
+                "details": [
+                    "Check the order status and details (e.g., delivery date, items shipped, cancellation status).",
+                    "Contact relevant parties (e.g., installers, store personnel, delivery services) if needed to gather information.",
+                    "Determine the cause of the issue (e.g., order cancellation, damaged items, delayed delivery)."
+                ]
+            },
+            {
+                "step": "Determine Refund Eligibility and Options",
+                "details": [
+                    "Assess the customer's eligibility for a full or partial refund based on the issue.",
+                    "Explore available options, such as offering a discount, rescheduling delivery, arranging for item pickup/replacement, or processing a refund.",
+                    "Explain any limitations or constraints regarding refunds (e.g., gift card policies, system limitations)."
+                ]
+            },
+            {
+                "step": "Process the Refund",
+                "details": [
+                    "If a refund is applicable, process it through the appropriate system.",
+                    "Confirm the refund amount and method (e.g., credit card, store credit, PayPal).",
+                    "Inform the customer of the expected timeframe for the refund to be processed.",
+                    "If the refund requires in-store processing, provide the customer with the necessary instructions and contact information."
+                ]
+            },
+            {
+                "step": "Provide Additional Support and Information",
+                "details": [
+                    "Offer alternative solutions if a refund cannot be processed (e.g., sending a replacement gift card).",
+                    "Provide relevant contact information (e.g., credit services team, local store).",
+                    "Follow up with the customer to ensure their issue is resolved.",
+                    "Thank the customer for their patience and business."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Remove Haul Away Fee",
+        "customer_motivation": "The customer wants to remove a haul away fee from their order.",
+        "resolution_goals": [
+            "Remove the haul away fee from the customer's order if possible.",
+            "Provide alternative solutions if the fee cannot be directly removed."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Obtain the order number associated with the customer's request.",
+                    "Confirm the customer's full billing address and email address."
+                ]
+            },
+            {
+                "step": "Locate and Remove Haul Away Fee",
+                "details": [
+                    "Determine if the customer is using the app or desktop site.",
+                    "Guide the customer to the shipping options page.",
+                    "Instruct the customer to look for a \"remove\" option for the haul away fee (if the order hasn't been placed).",
+                    "If the order has been placed, determine if the item is eligible for cancellation"
+                ]
+            },
+            {
+                "step": "Process Cancellation Request (If Necessary)",
+                "details": [
+                    "If direct removal is not possible, inform the customer about submitting a cancellation request.",
+                    "Explain that the cancellation request is not guaranteed.",
+                    "Inform the customer they will receive an email about the cancellation status."
+                ]
+            },
+            {
+                "step": "Provide Alternative Solutions (If Cancellation Fails)",
+                "details": [
+                    "If cancellation is unsuccessful, advise the customer that they can return the item to a local Home Depot store for a refund.",
+                    "Provide contact information for additional assistance with returns (text and phone number)."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Rental Inquiry",
+        "customer_motivation": "The customer is inquiring about rentals, including availability, pricing, reservations, cancellations, rescheduling, or issues with rental charges.",
+        "resolution_goals": [
+            "Provide information regarding rental services, including pricing and availability.",
+            "Direct the customer to the appropriate store or department for assistance with reservations, cancellations, rescheduling, or resolving issues with rental charges."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Identify the Customer's Rental Inquiry",
+                "details": [
+                    "Determine the specific type of rental inquiry (e.g., availability, pricing, reservation, cancellation, rescheduling, billing dispute).",
+                    "Ask clarifying questions to understand the customer's needs (e.g., type of equipment, dates, locations)."
+                ]
+            },
+            {
+                "step": "Explain Limitations of Online Support",
+                "details": [
+                    "Inform the customer that online support typically has limited access to rental information or systems.",
+                    "Clarify that reservations, cancellations, rescheduling, and billing inquiries are usually handled directly by the rental department at the store level."
+                ]
+            },
+            {
+                "step": "Provide Store Contact Information",
+                "details": [
+                    "If the customer needs to contact a specific store, locate and provide the store's phone number, particularly the rental department's direct line if available.",
+                    "If the customer doesn't know which store to contact, ask for their location or the location where the rental was made/reserved to find the appropriate store information."
+                ]
+            },
+            {
+                "step": "Offer Alternative Solutions When Possible",
+                "details": [
+                    "If the customer is looking for pricing on Penske moving trucks, check to see that pricing if you can provide the zip code of from and to zip code, and a specific date.",
+                    "If a customer has a billing issue, explain that they can also request a compensation with the store manager."
+                ]
+            },
+            {
+                "step": "Summarize and Offer Further Assistance",
+                "details": [
+                    "Confirm that the customer understands the information provided and the recommended next steps.",
+                    "Ask if there's anything else the customer needs assistance with before ending the chat."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Replacement Part",
+        "customer_motivation": "The customer is seeking assistance due to receiving a damaged or defective item from a previous order and wants a replacement or resolution.",
+        "resolution_goals": [
+            "Provide the customer with a suitable solution for the damaged or defective item, such as a replacement, return, discount, or manufacturer contact.",
+            "Ensure customer satisfaction and maintain a positive shopping experience, even when issues arise."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Request and confirm the order number and email address associated with the order.",
+                    "Verify the billing address or other identifying information for security purposes."
+                ]
+            },
+            {
+                "step": "Assess the Issue",
+                "details": [
+                    "Determine the specific item that is damaged or defective.",
+                    "Ask the customer to describe the damage or defect, or request photos for better understanding.",
+                    "Confirm the quantity affected if multiple items were ordered."
+                ]
+            },
+            {
+                "step": "Explore Resolution Options",
+                "details": [
+                    "Check for available replacement options, either direct replacement or reordering.",
+                    "If direct replacement isn't available, consider a return and reorder.",
+                    "Explore return options: in-store return, carrier pickup, or customer drop-off.",
+                    "If applicable, offer a discount on a new order to compensate for the inconvenience.",
+                    "Consider a \"keep as is\" credit or discount for cosmetic damage.",
+                    "Contact the manufacturer to explore replacement part options or direct assistance.",
+                    "Provide the customer with the manufacturer's contact information if pursuing that route."
+                ]
+            },
+            {
+                "step": "Process Return or Reorder",
+                "details": [
+                    "If a return is chosen, initiate the return process and provide the customer with return instructions and tracking information.",
+                    "If reordering, create a new order with any agreed-upon discounts applied.",
+                    "Send the customer a payment link for secure payment processing.",
+                    "Confirm the new order details and provide the order number."
+                ]
+            },
+            {
+                "step": "Address Additional Concerns",
+                "details": [
+                    "Explain any separate charges or services, such as assembly.",
+                    "Provide contact information for Home Services if assembly assistance is needed.",
+                    "Address questions about price matching or protection plans.",
+                    "Follow up with internal teams or vendors regarding the issue, especially if related to manufacturing defects.",
+                    "Document the resolution and any special considerations in the customer's order notes."
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Offer Further Assistance",
+                "details": [
+                    "Summarize the agreed-upon resolution to ensure the customer understands the next steps.",
+                    "Offer further assistance if needed.",
+                    "Thank the customer for their business and express appreciation.",
+                    "Encourage the customer to complete the post-chat survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Reshipment",
+        "customer_motivation": "The customer wants to reship an order that has not arrived or has encountered issues during the shipping process.",
+        "resolution_goals": [
+            "Reship the missing or problematic item(s) to the customer.",
+            "Offer compensation or discounts to address the inconvenience caused by the original shipping issue."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Account and Order Details",
+                "details": [
+                    "Request and confirm the customer's homedepot.com account email to access their order history.",
+                    "Obtain and verify the order number and billing address for the order in question."
+                ]
+            },
+            {
+                "step": "Assess the Original Order's Status",
+                "details": [
+                    "Check the current status of the order to determine if it's delayed, lost, or experiencing other issues.",
+                    "If the order was shipped via a third party (e.g., Andersen), attempt to contact the supplier to get more detailed tracking information or updates."
+                ]
+            },
+            {
+                "step": "Offer Reshipment or Alternative Solutions",
+                "details": [
+                    "If the original order is significantly delayed or lost, offer to reship the items to the customer.",
+                    "Alternatively, if reshipment is not immediately possible (e.g., due to backorders), offer to cancel the original order and create a new order with potential discounts or other compensation."
+                ]
+            },
+            {
+                "step": "Process the Reshipment or New Order",
+                "details": [
+                    "If reshipping: Confirm the delivery address with the customer.",
+                    "If creating a new order: Inform the customer about potential price differences and any discounts applied.",
+                    "Collect payment information through a secure payment form if required.",
+                    "Obtain final permission from the customer to submit the reshipment or new order."
+                ]
+            },
+            {
+                "step": "Provide Post-Reshipment/Order Support",
+                "details": [
+                    "Provide the new order number to the customer.",
+                    "Inform the customer about contacting Home Depot credit services if financing was involved in the original order to ensure proper application of interest-free terms to the new purchase.",
+                    "Inform the customer about contacting Home Depot credit services if financing was involved in the original order to ensure proper application of interest-free terms to the new purchase."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Service Feedback",
+        "customer_motivation": "The customer is providing feedback, expressing dissatisfaction, or raising a concern regarding a product, service, or interaction they had with the Home Depot.",
+        "resolution_goals": [
+            "Acknowledge and validate the customer's feedback or complaint.",
+            "Provide a resolution or offer assistance to address the customer's concern."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Acknowledge and Validate Customer's Feedback",
+                "details": [
+                    "Thank the customer for providing the feedback.",
+                    "Acknowledge the customer's frustration or inconvenience.",
+                    "Summarize the customer's feedback to ensure understanding.",
+                    "Apologize for any negative experience the customer had."
+                ]
+            },
+            {
+                "step": "Investigate the Issue and Gather Information",
+                "details": [
+                    "Request order details, such as order number and billing address, for verification.",
+                    "Review order history, delivery status, or other relevant information.",
+                    "Contact relevant departments (e.g., store, warehouse, vendor) to obtain more information about the situation.",
+                    "Ask clarifying questions to understand the problem fully."
+                ]
+            },
+            {
+                "step": "Offer a Resolution or Assistance",
+                "details": [
+                    "If possible, resolve the issue directly (e.g., schedule a service appointment, process a refund, arrange for a replacement).",
+                    "Explain any limitations on immediate resolution.",
+                    "Offer alternative solutions if the initial request cannot be fulfilled (e.g., suggest a similar product, provide contact information for another department).",
+                    "Provide updates on the progress of the resolution.",
+                    "Escalate the issue to a supervisor or another specialized team if necessary."
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Follow-Up",
+                "details": [
+                    "Recap the actions taken to resolve the issue.",
+                    "Confirm the customer's satisfaction with the resolution.",
+                    "Thank the customer for their patience and understanding.",
+                    "Provide contact information for further assistance.",
+                    "Inform the customer about the feedback survey."
+                ]
+            },
+            {
+                "step": "Forward Feedback to Relevant Parties",
+                "details": [
+                    "Assure the customer that their feedback will be shared with the appropriate teams or leadership.",
+                    "Explain that this will help improve the overall customer experience.",
+                    "State that the feedback will be taken seriously.",
+                    "Take note of and escalate previous interaction if required"
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Shipping Information",
+        "customer_motivation": "The customer is seeking information or assistance related to their order's shipping status or options.",
+        "resolution_goals": [
+            "Provide the customer with accurate shipping information for their order.",
+            "Address any concerns regarding delivery dates, potential delays, or misdeliveries and ensure customer satisfaction."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Information",
+                "details": [
+                    "Greet the customer and confirm their order number.",
+                    "Request and verify the full billing address associated with the order for security purposes."
+                ]
+            },
+            {
+                "step": "Locate and Review Order Details",
+                "details": [
+                    "Access the order details using the provided information.",
+                    "Check the current shipping status, estimated delivery date, and any relevant tracking information."
+                ]
+            },
+            {
+                "step": "Provide Shipping Information to Customer",
+                "details": [
+                    "Clearly communicate the shipping status and estimated delivery date to the customer.",
+                    "If delays are present, acknowledge the inconvenience and offer potential solutions (e.g., tracking updates, compensation after delivery).",
+                    "If misdelivery occurred, assist with return and reorder options, or discount."
+                ]
+            },
+            {
+                "step": "Address Additional Inquiries",
+                "details": [
+                    "Ask if the customer has any other questions or concerns.",
+                    "Offer additional assistance related to the order, such as options for changing the pickup person (if applicable) or exploring carrier options once shipped.",
+                    "If unable to fulfill a request (e.g., expediting shipping, changing a ship-to-home address), explain the limitations and offer alternative solutions if available."
+                ]
+            },
+            {
+                "step": "Conclude the Interaction",
+                "details": [
+                    "Thank the customer for choosing The Home Depot.",
+                    "Inform the customer about the survey and encourage them to complete it.",
+                    "Wish the customer a pleasant day."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Shipping Inquiry",
+        "customer_motivation": "The customer is inquiring about the current status or expected delivery date of an order they have placed.",
+        "resolution_goals": [
+            "Provide the customer with the most up-to-date information regarding their order's shipping status and estimated delivery timeframe.",
+            "Address any concerns the customer has regarding delays or discrepancies in shipping information, and offer potential solutions or compensation if appropriate."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Order Verification",
+                "details": [
+                    "Greet the customer and express your willingness to assist.",
+                    "Request the order number and any necessary personal information, such as full billing address and email address, for verification purposes."
+                ]
+            },
+            {
+                "step": "Locate Order Details",
+                "details": [
+                    "Use the provided information to locate the customer's order in the system.",
+                    "Thank the customer for their patience while retrieving the order details."
+                ]
+            },
+            {
+                "step": "Provide Shipping Information",
+                "details": [
+                    "Inform the customer of the current shipping status, including whether the order has shipped, tracking information, and estimated delivery date.",
+                    "Acknowledge that estimated delivery dates are not guaranteed and can be affected by warehouse or shipping delays."
+                ]
+            },
+            {
+                "step": "Address Delays and Concerns",
+                "details": [
+                    "Acknowledge the customer's frustration and apologize for any inconvenience caused by delays.",
+                    "If the order is significantly delayed, investigate further by contacting the vendor or shipping carrier for updates.",
+                    "If appropriate, offer compensation, such as a discount or refund, for the inconvenience."
+                ]
+            },
+            {
+                "step": "Offer Further Assistance",
+                "details": [
+                    "Inquire if there is anything else you can assist the customer with.",
+                    "Thank the customer for choosing The Home Depot and invite them to participate in a brief survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Supervisor Request",
+        "customer_motivation": "The customer is requesting to speak with a supervisor to escalate an issue or complaint.",
+        "resolution_goals": [
+            "Escalate the customer's issue or complaint to a supervisor or store manager.",
+            "Attempt to resolve the issue before escalating, if possible."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Acknowledge the Request and Gather Information",
+                "details": [
+                    "Acknowledge the customer's request to speak with a supervisor or escalate the issue.",
+                    "Express empathy and apologize for the customer's frustration.",
+                    "Review any previous interactions or order details to understand the issue.",
+                    "Verify the customer's identity for security purposes by asking for billing address, email address, or order number.",
+                    "If possible, attempt to resolve the issue without escalation."
+                ]
+            },
+            {
+                "step": "Determine the Appropriate Escalation Path",
+                "details": [
+                    "Determine if the issue can be resolved by contacting the local store or delivery agency.",
+                    "If the issue needs to be escalated, determine the best contact person (e.g., store manager).",
+                    "If appropriate, explain the situation to the customer and let them know you will contact the relevant party."
+                ]
+            },
+            {
+                "step": "Contact the Appropriate Party and Investigate",
+                "details": [
+                    "Contact the local store, delivery agency, or store manager on the customer's behalf.",
+                    "Explain the customer's issue and request assistance in resolving it.",
+                    "Gather all necessary information from the relevant party to understand the situation."
+                ]
+            },
+            {
+                "step": "Communicate Findings and Offer Solutions",
+                "details": [
+                    "Inform the customer of the findings from your investigation.",
+                    "Provide the customer with all available options, even if they are not ideal (e.g., rescheduling delivery, processing a refund).",
+                    "If a resolution is possible, explain the steps involved and any relevant timelines."
+                ]
+            },
+            {
+                "step": "Facilitate Escalation or Resolution",
+                "details": [
+                    "If the customer still wishes to speak with a supervisor, provide the necessary contact information or transfer the call.",
+                    "If a resolution is agreed upon, take the necessary steps to implement it (e.g., resend confirmation email, process a refund, reschedule delivery).",
+                    "Document all actions taken and any relevant information in the order notes."
+                ]
+            },
+            {
+                "step": "Close the Interaction",
+                "details": [
+                    "Thank the customer for their patience and understanding.",
+                    "Confirm that all their concerns have been addressed.",
+                    "Inform the customer about the post-chat survey.",
+                    "Wish the customer a good day."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Update Phone Number",
+        "customer_motivation": "The customer wants to update the phone number associated with their order or account.",
+        "resolution_goals": [
+            "Update the phone number on the order or account.",
+            "Ensure the customer receives notifications at the correct number."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Identity and Order Details",
+                "details": [
+                    "Obtain the order number from the customer.",
+                    "Request verification of the full billing address and/or email address associated with the order for security purposes."
+                ]
+            },
+            {
+                "step": "Locate and Update the Phone Number",
+                "details": [
+                    "Access the order details to view the current phone number.",
+                    "If possible, directly update the phone number on the order or account.",
+                    "If direct updates aren't possible, check if the customer can update it themselves via the mobile app or website.",
+                    "If customer cannot update, provide the customer care number 1 (800) 466-3337 and wait for option 6."
+                ]
+            },
+            {
+                "step": "Confirm the Update and Next Steps",
+                "details": [
+                    "Confirm to the customer that the phone number has been updated.",
+                    "If unable to directly update, inform the customer that you have added notes to the order with the updated number for internal reference.",
+                    "If the order has already shipped, explain that the phone number cannot be changed at this point and offer to contact the carrier once one is assigned to see if they can modify it.",
+                    "If the order is delayed, check if a call can be made to the store directly from a manager using extension 1#."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Update Sales Tax Certificate",
+        "customer_motivation": "The customer is attempting to update their sales tax exemption certificate with The Home Depot to make tax-exempt purchases.",
+        "resolution_goals": [
+            "Guide the customer on how to update or register their tax-exempt status for online and in-store purchases.",
+            "Provide relevant contact information or website links to facilitate the process."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer's Tax-Exempt Status",
+                "details": [
+                    "Confirm if the customer has previously completed tax ID registration with The Home Depot.",
+                    "Determine if the customer is using a generic tax ID or one already registered with The Home Depot."
+                ]
+            },
+            {
+                "step": "Provide Instructions for Updating Tax-Exempt Information",
+                "details": [
+                    "Inform the customer that tax-exempt information can be updated online.",
+                    "Provide the website link for tax-exempt purchases for pros: https://www.homedepot.com/c/tax-exempt-purchases-for-pros?NCNI-5&searchRedirect=tax%20exempt&semanticToken=k27r10r10f220400000001_2025051918315538066817929626_us-east1-5x9q%20k27r10r10f220400000001%20%3E%20st%3A%7Btax%20exempt%7D%3Ast%20ml%3A%7B24%7D%3Aml%20nr%3A%7Btax%20exempt%7D%3Anr%20nf%3A%7Bn%2Fa%7D%3Anf%20qu%3A%7Btax%20exempt%7D%3Aqu%20ie%3A%7B0%7D%3Aie%20qr%3A%7Btax%20exempt%7D%3Aqr"
+                ]
+            },
+            {
+                "step": "Alternative Contact Method",
+                "details": [
+                    "If the customer cannot update online, provide the Tax Exempt Department phone number: 877-434-6435."
+                ]
+            },
+            {
+                "step": "Troubleshooting Cart Issues",
+                "details": [
+                    "Suggest that the customer may not have been signed in when adding items to their cart if the tax exemption is not applied."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Use Store Credit for Order",
+        "customer_motivation": "The customer wants to apply store credit or a Home Depot credit card discount to an order or understand how to use their credit card benefits.",
+        "resolution_goals": [
+            "Apply the store credit or credit card discount to the customer's order, if applicable and possible within the agent's system access.",
+            "Provide the customer with the correct contact information and process for resolving credit-related issues (e.g., applying for credit, understanding financing, resolving discount application issues)."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Information and Order Details",
+                "details": [
+                    "Ask the customer for their full name, billing address, and email address to locate the order.",
+                    "Confirm the order number with the customer.",
+                    "Clarify the specific issue: Is it about applying a store credit, applying a credit card discount (e.g., new card discount), or understanding financing options?"
+                ]
+            },
+            {
+                "step": "Assess Agent's Ability to Resolve",
+                "details": [
+                    "Determine if the agent has the system access required to resolve the issue (e.g., applying store credit, adjusting the order total). Note: Agents generally do NOT have access to credit card details or credit services functionality.",
+                    "If the issue involves Home Depot credit card financing, discounts, or other credit-related matters, proceed to the next step."
+                ]
+            },
+            {
+                "step": "Transfer to Credit Services (If Necessary)",
+                "details": [
+                    "Explain to the customer that Home Depot Online Support does not have access to credit card information or the ability to directly resolve credit-related issues.",
+                    "Provide the customer with the contact information for the Credit Services department: (800) 677-0232 or (866) 875-5488.  Mention that Citi Bank manages Home Depot credit cards.",
+                    "If the customer is inquiring about a new card discount that has not been applied, explain that it typically appears on the first billing statement. Suggest contacting Citibank Credit Services if it doesn't appear.",
+                    "For issues related to Pro Xtra card perks, advise the customer to add the card to their PRO account and to use that card during checkout."
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Offer Further Assistance",
+                "details": [
+                    "Confirm with the customer that they understand the next steps and have the necessary contact information.",
+                    "Ask if there are any other questions or issues the agent can assist with.",
+                    "Thank the customer for choosing The Home Depot."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Vendor Communication Inquiry",
+        "customer_motivation": "Customers are contacting the Home Depot to inquire about the status of their orders, deliveries, or vendor-related issues.",
+        "resolution_goals": [
+            "Provide the customer with accurate information about the status of their order, delivery, or vendor communication.",
+            "Resolve any issues or concerns related to the order, delivery, or vendor, such as delays, cancellations, or defects."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Order Details",
+                "details": [
+                    "Obtain the order number, email address, and billing address from the customer.",
+                    "If the initial order number doesn't work, ask the customer to double-check the information."
+                ]
+            },
+            {
+                "step": "Investigate Order Status",
+                "details": [
+                    "Check the current status of the order, delivery, or vendor communication using internal systems.",
+                    "Determine if there are any delays, reschedulings, or issues with the order."
+                ]
+            },
+            {
+                "step": "Provide Customer with Updates",
+                "details": [
+                    "Inform the customer of the order status, including any delays or reschedulings.",
+                    "Explain the reason for any delays or reschedulings (e.g., inventory issues, delivery availability, vendor problems).",
+                    "If the package is with a carrier and there are issues, create an ETA case for the resolutions team to look into the issue."
+                ]
+            },
+            {
+                "step": "Offer Solutions and Options",
+                "details": [
+                    "If there is a delay, check for alternative delivery dates or times.",
+                    "If an item is defective, offer a return, refund, or discount.",
+                    "Contact the vendor on the customer's behalf to resolve any issues and provide the customer with a timeline for follow-up.",
+                    "Offer to create a case with the resolutions team to reach out to the vendor."
+                ]
+            },
+            {
+                "step": "Document and Escalate if Necessary",
+                "details": [
+                    "Add notes to the order regarding the customer's concerns and any agreed-upon solutions.",
+                    "Escalate the issue to a salaried leader or the resolutions team if further assistance is required."
+                ]
+            },
+            {
+                "step": "Confirm Resolution and Offer Additional Assistance",
+                "details": [
+                    "Confirm with the customer that their issue has been resolved or that the agreed-upon solution is in progress.",
+                    "Ask if there is anything else the agent can assist with.",
+                    "Thank the customer for their business and encourage them to complete the survey."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Website Discrepancy",
+        "customer_motivation": "The customer is experiencing a discrepancy between the website information (e.g., price, availability, item details) and what they expect.",
+        "resolution_goals": [
+            "To resolve the discrepancy reported by the customer and ensure accurate information is displayed.",
+            "To provide alternative solutions or compensation if the discrepancy cannot be immediately fixed."
+        ],
+        "resolution_guide": [
+            {
+                "step": "Verify Customer Details and Issue",
+                "details": [
+                    "Ask for the customer's email address or order number to access their account or order details.",
+                    "Confirm the specific item or issue the customer is referencing (e.g., SKU, product name).",
+                    "If pricing is the issue, verify the customer's location (zip code) to ensure localized pricing is displayed."
+                ]
+            },
+            {
+                "step": "Investigate the Discrepancy",
+                "details": [
+                    "Attempt to replicate the customer's experience by accessing the same product page or cart.",
+                    "Check item availability in the system and compare it to what is displayed on the website.",
+                    "If the item shows as unavailable, explain potential delays between real-time availability and website updates."
+                ]
+            },
+            {
+                "step": "Provide Solutions or Alternatives",
+                "details": [
+                    "If the issue is pricing, suggest adding the item to the cart and entering the delivery address to update the price.",
+                    "If the item is unavailable online but available in-store, suggest purchasing in-store and returning the online order when it arrives.",
+                    "If the item is unavailable and the customer wants to reorder, offer a discount or gift card for the inconvenience.",
+                    "Suggest checking back later for website updates or contacting the store directly."
+                ]
+            },
+            {
+                "step": "Escalate if Necessary",
+                "details": [
+                    "If the issue cannot be resolved immediately, submit a ticket to the IT or website development team.",
+                    "If a discount needs approval, request approval from a supervisor.",
+                    "If there is a significant fulfillment issue, reach out to a store manager to discuss possible solutions."
+                ]
+            },
+            {
+                "step": "Offer Additional Support",
+                "details": [
+                    "If the delivery date has changed, provide an updated tracking number.",
+                    "Explain that Estimated Time of Arrivals (ETAs) are subject to change due to extenuating circumstances.",
+                    "Reiterate that the company appreciates the customer's business and values their feedback."
+                ]
+            }
+        ]
+    }
+]
